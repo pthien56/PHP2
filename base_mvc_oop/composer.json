@@ -1,0 +1,13 @@
+{
+    "name": "wd20301_php2/base_mvc_oop",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "require": {
+        "phroute/phroute": "^2.2",
+        "eftec/bladeone": "^4.19"
+    }
+}

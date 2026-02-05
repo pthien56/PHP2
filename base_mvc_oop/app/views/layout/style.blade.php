@@ -1,0 +1,60 @@
+<style>
+/* Custom styles to complement Bootstrap */
+.navbar-brand {
+    font-weight: bold;
+}
+
+.card {
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.table th {
+    font-weight: 600;
+    border-top: none;
+}
+
+.img-thumbnail {
+    border: 1px solid #dee2e6;
+}
+
+/* Custom badge colors */
+.badge.bg-primary {
+    background-color: #0d6efd !important;
+}
+
+.badge.bg-success {
+    background-color: #198754 !important;
+}
+
+.badge.bg-secondary {
+    background-color: #6c757d !important;
+}
+
+/* Button hover effects */
+.btn:hover {
+    transform: translateY(-1px);
+    transition: all 0.2s ease-in-out;
+}
+
+/* Alert improvements */
+.alert {
+    border: none;
+    border-radius: 0.5rem;
+}
+
+/* Footer styling */
+footer {
+    margin-top: auto;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    flex: 1;
+}
+</style>
